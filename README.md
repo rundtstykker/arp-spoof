@@ -7,6 +7,9 @@ To run this program, you should already be in the network (wireless or wired). T
 ## Running the program
 Written in python 2.7, make sure to use the appropriate interrupter. You should know the IPs of router and target. Do an Nmap scan if unknown.
 
+## Example usage
+ARP_spoof.py --ip 192.168.0.10 --router 192.168.0.1 --victim 192.168.0.10
+
 ## Attention
 Please do not use this program where unauthorized.
 
